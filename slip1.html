@@ -1,0 +1,76 @@
+<!-- Q.1) Write the HTML code for generating the form as shown below. Apply the internal CSS to 
+following form to change the font size of the heading to 6pt and change the color to red and also 
+change the background color to yellow.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slip 1</title>
+</head>
+<style>
+    *{
+        align-items: center;
+        align-self: center;
+    }
+    div{
+        background-color: aquamarine;
+        border: 2px solid black;
+        margin: auto;
+        width: 30%;
+        padding: 10px;
+        text-align: center;
+        align-items: center;
+
+    }
+    .clear{
+        background-color: rgba(74, 74, 172, 0.474);
+        margin : 10px;
+        padding : 10px;
+    }
+    .submit{
+        background-color: rgba(72, 192, 112, 0.474);
+        margin : 10px;
+        padding : 10px;
+    }
+
+</style>
+<body>
+<form>
+    <div>
+    Project Name : <input type="text" name="name" id="name">
+    <br>
+    <br>
+    Assigned to : 
+    <select name="" id="">
+        <option value="">
+            mr merry pallison
+        </option>
+        <option value="">
+            Kaustubh
+        </option>
+        <option value="">
+            arpita
+        </option>
+    </select>
+    <br>
+    <br>
+    Start Date : <input type="date">
+    <br>
+    <br>
+    End Date : <input type="date">
+    <br><br>
+    Priority : 
+    <input type="radio">High
+    <input type="radio">Medium
+    <input type="radio">Low
+    <br><br>
+    Description : <textarea name="" id="" cols="20" rows="5"></textarea>>
+    <br><br>
+    <button class="submit">Submit</button> <button class="clear">Clear</button>
+    </div>
+</form> 
+</body>
+</html>
